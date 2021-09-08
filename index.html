@@ -40,17 +40,16 @@
           your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts
           and more!
         </p>
-        <form action="#">
-          <label for="user_email"></label>
+        <form id="form" action="/" novalidate>
+          <label for="email"></label>
           <input
-            class="email-input"
+            id="email"
             type="email"
-            name="user_email"
+            name="email"
             placeholder="Email address"
-            required
           />
           <button type="submit">Request Access</button>
-          <p class="email-warning"></p>
+          <p class="error"></p>
         </form>
         <div class="platforms">
           <img class="platform-logo" src="assets/desktop/spotify.svg" />
