@@ -50,9 +50,6 @@ h1 {
     .logo {
       left: 3.9rem;
       top: 5rem; } }
-  @media screen and (max-width: 23.5em) {
-    .logo {
-      margin: 0 auto; } }
 
 .background-img {
   position: absolute;
