@@ -2,6 +2,15 @@
   position: absolute;
   left: 16.5rem;
   top: 10.2rem;
+
+  @media screen and (max-width: $bp-tablet) {
+    left: 3.9rem;
+    top: 5rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    margin: 0 auto;
+  }
 }
 
 .background-img {
@@ -10,6 +19,25 @@
   height: 64rem;
   left: 55.2rem;
   top: 13rem;
+
+  @media screen and (max-width: $bp-tablet) {
+    display: none;
+  }
+}
+
+.background-img-tablet {
+  position: absolute;
+  left: 27.7rem;
+  top: 0;
+  display: none;
+
+  @media screen and (max-width: $bp-tablet) {
+    display: unset;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    display: none;
+  }
 }
 
 .request-box {
@@ -21,10 +49,22 @@
   padding-top: 8.8rem;
   padding-right: 5.8rem;
   background-color: var(--color-dark-gray);
+
+  @media screen and (max-width: $bp-tablet) {
+    width: 63.5rem;
+    left: 3.9rem;
+    top: 25.8rem;
+    padding-right: 3rem;
+  }
 }
 
 .heading-primary {
   padding-bottom: 2.4rem;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+  }
 }
 
 .text-primary {
@@ -38,6 +78,11 @@
   height: 10.4rem;
   left: 120.8rem;
   top: 71.8rem;
+
+  @media screen and (max-width: $bp-tablet) {
+    left: 3rem;
+    top: 92rem;
+  }
 }
 
 form {

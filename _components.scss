@@ -18,6 +18,11 @@ button {
     background-color: var(--color-light-green);
     cursor: pointer;
   }
+
+  @media screen and (max-width: $bp-tablet) {
+    top: 35.3rem;
+    left: 26rem;
+  }
 }
 
 input[type="email"] {

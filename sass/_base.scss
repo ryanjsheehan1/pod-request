@@ -1,3 +1,4 @@
+// CSS Properties
 :root {
   --color-green: #54e6af;
   --color-light-green: #b3ffe2;
@@ -7,6 +8,10 @@
   --color-light-gray: #5a668a;
   --color-lightest-gray: #c2cbe5;
 }
+
+// Breakpoints
+$bp-tablet: 48em; // 768px
+$bp-mobile: 23.5em; //375px
 
 * {
   margin: 0;
