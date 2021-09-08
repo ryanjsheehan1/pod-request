@@ -1,0 +1,43 @@
+button {
+  color: var(--color-dark-gray);
+  background-color: var(--color-green);
+  border-radius: 2.8rem;
+  border: 0;
+  padding: 0.9rem 2.7rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.8rem;
+  position: absolute;
+  left: 26.3rem;
+  top: 36.5rem;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: var(--color-light-green);
+    cursor: pointer;
+  }
+}
+
+input[type="email"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--color-medium-gray);
+  padding: 1.4rem 3.2rem;
+  border-radius: 2.8rem;
+  width: 42.7rem;
+  border: 0;
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+  color: var(--color-white);
+
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    color: var(--color-lightest-gray);
+  }
+}

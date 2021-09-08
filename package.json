@@ -1,0 +1,23 @@
+{
+  "name": "pod-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scss": "node-sass --watch sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanjsheehan1/pod-request.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanjsheehan1/pod-request/issues"
+  },
+  "homepage": "https://github.com/ryanjsheehan1/pod-request#readme"
+}

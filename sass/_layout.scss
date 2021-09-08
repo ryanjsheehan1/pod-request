@@ -1,0 +1,56 @@
+.logo {
+  position: absolute;
+  left: 16.5rem;
+  top: 10.2rem;
+}
+
+.background-img {
+  position: absolute;
+  width: 88.8rem;
+  height: 64rem;
+  left: 55.2rem;
+  top: 13rem;
+}
+
+.request-box {
+  width: 72.3rem;
+  height: 50.9rem;
+  position: absolute;
+  left: 16.5rem;
+  top: 26.1rem;
+  padding-top: 8.8rem;
+  padding-right: 5.8rem;
+  background-color: var(--color-dark-gray);
+}
+
+.heading-primary {
+  padding-bottom: 2.4rem;
+}
+
+.text-primary {
+  width: 44.5rem;
+  padding-bottom: 4rem;
+}
+
+.dots-img {
+  position: absolute;
+  width: 23.2rem;
+  height: 10.4rem;
+  left: 120.8rem;
+  top: 71.8rem;
+}
+
+form {
+  padding-bottom: 6.4rem;
+}
+
+.platforms {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.platform-logo {
+  width: 100%; // fix for IE
+}
