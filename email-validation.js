@@ -14,8 +14,9 @@ form.addEventListener("submit", (e) => {
     form.style.paddingBottom = "3.6rem";
   } else if (email.value === "") {
     e.preventDefault();
-    errorElement.innerText = "";
-    form.style.paddingBottom = "6.4rem";
+    errorElement.style.color = "#fb3e3e";
+    errorElement.innerText = "Oops! Please add your email";
+    form.style.paddingBottom = "3.6rem";
   } else {
     e.preventDefault();
     errorElement.style.color = "#54e6af";
