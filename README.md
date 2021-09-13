@@ -10,8 +10,6 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 
 ## Overview
 
@@ -41,7 +39,3 @@ Users should be able to:
 - Sass CSS Preprocessor
 - JavaScript
 - Desktop-first workflow
-
-### What I learned
-
-### Continued development
